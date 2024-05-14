@@ -1,0 +1,78 @@
+nav a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style-type: none;
+  background-color: palegoldenrod;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  background-color: lightgrey;
+}
+
+nav img {
+  position: relative;
+  top: 20px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: xx-large;
+  background-image: url(../images/Beach.jpg);
+  background-size: cover;
+}
+
+main p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: lightblue;
+}
+
+footer {
+  background-color: darkolivegreen;
+  font-family: 'Times New Roman', Times, serif;
+  color: yellow;
+}
+footer a{
+  color: orange;
+}
+
+.current {
+  text-transform: uppercase;
+  background-color: black;
+  color: red;
+}
+.grid-container{
+  display: grid;
+      gap: 35px 35px;
+      grid-template-columns: 40% 40%;
+      justify-content: space-around;
+      
+  }
+div img{
+  width: 150px;
+  height: 150px;
+}
+div{
+  background-color: ivory;
+}
+
+.flex-container{
+  display: flex;
+  
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+  }
